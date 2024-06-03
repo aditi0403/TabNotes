@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d3557;
+    color: #1d3557; /* Text color */
+}
+
+h1 {
+    color: #FFC300;
+    text-align: center;
+}
+h2 {
+    color: #1d3557;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.heading {
+    color: #ffcc80;
+    text-align: center;
+    
+}
+
+.subheading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.subheading p {
+    font-size: 18px;
+    color: #ffffff; /* Text color */
+}
+
+.library-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.library {
+    background-color: #ffcc80;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffcc80;
+    cursor: pointer;
+}
+
+.library:hover {
+    box-shadow: 0 0 4px #ffffff;
+}
+
+.modules-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: #ffcc80;
+    border-radius: 25px;
+}
+
+.module {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    color: #ffcc80;
+}
+
+.module:nth-child(odd) {
+    background-color: #1d3557; /* Blue background for odd modules */
+}
+
+.module:nth-child(even) {
+    background-color: #1d3557; /* White background for even modules */
+}
+
+/* Additional CSS for the custom modal */
+.custom-sw-modal .swal2-popup {
+    width: 80%; /* Adjust the width */
+    max-width: 90%;
+    height: 70vh; /* Adjust the height */
+    max-height: 80vh;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TabNotes</title>
+    <link rel="stylesheet" href="notemaking.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://unpkg.com/idb@6.1.7/build/iife/index-min.js"></script> 
+</head>
+<body>
+    <h1 class="heading">TabNotes</h1>
+    <div class="subheading">
+        <p>Organize your study material and notes with TabNotes</p>
+    </div>
+    <div class="container">
+        <div class="library-container">
+            <div class="library" onclick="showModules(1)">
+                <h2>Library 1</h2>
+            </div>
+            <div class="library" onclick="showModules(2)">
+                <h2>Library 2</h2>
+            </div>
+            <div class="library" onclick="showModules(3)">
+                <h2>Library 3</h2>
+            </div>
+            <div class="library" onclick="showModules(4)">
+                <h2>Library 4</h2>
+            </div>
+            <div class="library" onclick="showModules(5)">
+                <h2>Library 5</h2>
+            </div>
+            <div class="library" onclick="showModules(6)">
+                <h2>Library 6</h2>
+            </div>
+        </div>
+    </div>
+    <script src="server.js"></script>
+    <script src="https://unpkg.com/idb@6.1.7/build/iife/index-min.js"></script>
+    <script src="notemaking.js"></script>
+</body>
+</html>
